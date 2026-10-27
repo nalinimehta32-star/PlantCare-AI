@@ -1,0 +1,30 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Raw Dataset Images (~2 GB - ignored to avoid Git bloat)
+data/*
+!data/.gitkeep
+
+# Model weights
+# models/plant_disease_model.keras is 11.6 MB (within GitHub's 100MB limit)
+# Uncomment the line below if you prefer to host weights via GitHub Releases instead:
+# models/*.keras
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code & IDE settings
+.vscode/
+.idea/

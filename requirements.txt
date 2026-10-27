@@ -1,0 +1,12 @@
+# Core Deep Learning and ML
+tensorflow>=2.15.0
+keras>=3.0.0
+numpy>=1.26.0
+scikit-learn>=1.3.0
+
+# Visualization and Image Processing
+matplotlib>=3.7.0
+pillow>=10.0.0
+
+# Web Application
+streamlit>=1.30.0
